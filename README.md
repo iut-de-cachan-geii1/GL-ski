@@ -47,7 +47,11 @@ la maison. Dans l'ordre, installer :
 * [CMake](https://cmake.org/download/)
     * __Attention :__
         * chercher `Windows win64-x64 Installer`
-        * laisser le chemin d'installation par défaut `C:\Program Files\CMake`
+    * __Attention :__
+        * veuillez suivre les captures d'écran ci-dessous pour
+        installer proprement CMake
+<br /><br /><img src="etc/cmake_install_1.png" width=450 align=center>
+<br /><br /><img src="etc/cmake_install_2.png" width=450 align=center>
 * [MinGW](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download)<br />
     * __Attention :__
         * veuillez suivre les captures d'écran ci-dessous pour
