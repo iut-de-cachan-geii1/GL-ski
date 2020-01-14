@@ -321,13 +321,13 @@ int serveurRecevoirSituation(Jeu *pJeu, Moi *pMoi, Adversaire *pAdversaire, int 
 
     *pNbBoules = 0;
     while (msg[index]) {
-        pBoules[*pNbBoules].x = bits16HexLire(&msg[index]);
+        if(*pNbBoules < BOULES_NB_MAX) pBoules[*pNbBoules].x = bits16HexLire(&msg[index]);
         index += 4;
-        pBoules[*pNbBoules].y = bits16HexLire(&msg[index]);
+        if(*pNbBoules < BOULES_NB_MAX) pBoules[*pNbBoules].y = bits16HexLire(&msg[index]);
         index += 4;
-        pBoules[*pNbBoules].vx = bits16HexLire(&msg[index]);
+        if(*pNbBoules < BOULES_NB_MAX) pBoules[*pNbBoules].vx = bits16HexLire(&msg[index]);
         index += 4;
-        pBoules[*pNbBoules].vy = bits16HexLire(&msg[index]);
+        if(*pNbBoules < BOULES_NB_MAX) pBoules[*pNbBoules].vy = bits16HexLire(&msg[index]);
         index += 4;
         (*pNbBoules)++;
     }
