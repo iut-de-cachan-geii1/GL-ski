@@ -33,9 +33,12 @@ repo.
 ### Branches, Commits, et Synchronisation
 Pas d'explications, il faut pratiquer !
 
-### À la maison
+## À la maison
 
-#### Installation des logiciels
+<details>
+<summary>Installation pour Windows (<i>cliquer pour développer</i>)</summary>
+
+### Installation des logiciels
 Vous devez installer les logiciels qui vous seront utiles pour travailler à
 la maison. Dans l'ordre, installer :
 * [Git](https://www.git-scm.com/download)
@@ -65,7 +68,7 @@ la maison. Dans l'ordre, installer :
     * __Attention :__ Vérifier bien que l'arborescence soit identique à la capture ci-dessous
     <br /><br /><img src="etc/ninja.jpg" width=550 align=center>
 
-#### Modification des variables d'environnement sous Windows
+### Modification des variables d'environnement sous Windows
 * Taper _variables d'environnement_ sur le bouton _Démarrer_ puis
 cliquer sur `Modifier les variables d'environnement système`
 * Cliquer sur le bouton `Variables d'environnement ...`
@@ -77,16 +80,18 @@ successivement sur `Nouveau` et sur `Parcourir ...`
     en recliquant successivement sur `Nouveau` et sur `Parcourir ...`
 * Cliquer `OK`
 
-#### Installation des extensions dans _Visual Studio Code_
+### Installation des extensions dans _Visual Studio Code_
 * Redémarrer _Visual Studio Code_
 * Cloner votre repo
 * Accepter toutes les requêtes d'installation d'extensions de
 _Visual Studio Code_
 
-#### Paramétrage du versionning dans _Visual Studio Code_
+### Paramétrage du versionning dans _Visual Studio Code_
 * Redémarrer _Visual Studio Code_
 * Suivre les captures d'écran ci-dessous pour paramétrer vos
 identifiants sur _Visual Studio Code_
-<br /><br /><img src="figures/terminal.png" width=700 align=center>
-<br /><br /><img src="figures/identifiant-github.png" width=700 align=center>
-<br /><br /><img src="figures/email-github.png" width=700 align=center>
+<br /><br /><img src="etc/terminal.png" width=700 align=center>
+<br /><br /><img src="etc/identifiant-github.png" width=700 align=center>
+<br /><br /><img src="etc/email-github.png" width=700 align=center>
+
+</details>
