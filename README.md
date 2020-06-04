@@ -57,7 +57,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 * Taper la 3ème commande suivante dans la fenêtre de commande powershell puis
 taper la touche _Entrée_
 ```powershell
-choco install -y ninja cmake mingw gcc-arm-embedded git vscode
+choco install -y ninja cmake mingw gcc-arm-embedded git vscode 7zip
 ```
 
 ### Installation des extensions dans _Visual Studio Code_
