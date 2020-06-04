@@ -49,6 +49,8 @@ taper la touche _Entrée_
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process
 ```
+* Arrivé au stade illustré ci-dessous, taper `T` puis la touche _Entrée_
+<br /><br /><img src="etc/powershell-executionpolicy.png" width=500 align=center><br /><br />
 * Taper la 2ème commande suivante dans la fenêtre de commande powershell puis
 taper la touche _Entrée_
 ```powershell
