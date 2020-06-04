@@ -42,14 +42,23 @@ Pas d'explications, il faut pratiquer !
 Vous devez installer les logiciels qui vous seront utiles pour travailler à
 la maison. Pour ce faire :
 * Télécharger le fichier `chocolatey-env-setup.ps1` en faisant un **clic-droit**
-[ici](https://github.com/iut-de-cachan-geii1/GL-ski/blob/master/chocolatey-env-setup.ps1)
+[ici](https://github.com/iut-de-cachan-geii1/IUT_DISCO_L476VG/blob/master/chocolatey-env-setup.ps1)
 puis `Enregistrer le lien sous ...`
 * Taper _powershell_ sur le bouton _Démarrer_,
 **faire un clic-droit** sur `Windows PowerShell` puis cliquer
 `Exécuter en tant qu'administrateur`
-* **Glisser-déposer** le fichier téléchargé 
-dans la fenêtre de commandes powershell ouverte précédemment
-* Taper la touche _Entrée_
+* Taper la 1ère commande suivante dans la fenêtre de commande powershell puis
+taper la touche _Entrée_
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process
+```
+* Taper la 2ème commande suivante dans la fenêtre de commande powershell puis
+taper la touche _Entrée_
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+* **Glisser-déposer** le fichier téléchargé dans la fenêtre ouverte précédemment
+puis taper la touche _Entrée_
 
 ### Installation des extensions dans _Visual Studio Code_
 * Redémarrer _Visual Studio Code_
