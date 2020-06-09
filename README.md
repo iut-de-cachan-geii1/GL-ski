@@ -62,12 +62,6 @@ taper la touche _Entrée_
 choco install -y ninja cmake --installargs 'ADD_CMAKE_TO_PATH=System' mingw gcc-arm-embedded git vscode 7zip
 ```
 
-### Installation des extensions dans _Visual Studio Code_
-* Redémarrer _Visual Studio Code_
-* Cloner votre repo
-* Accepter toutes les requêtes d'installation d'extensions de
-_Visual Studio Code_
-
 ### Paramétrage du versionning dans _Visual Studio Code_
 * Redémarrer _Visual Studio Code_
 * Suivre les captures d'écran ci-dessous pour paramétrer vos
@@ -75,5 +69,11 @@ identifiants sur _Visual Studio Code_
 <br /><br /><img src="etc/terminal.png" width=700 align=center>
 <br /><br /><img src="etc/identifiant-github.png" width=700 align=center>
 <br /><br /><img src="etc/email-github.png" width=700 align=center>
+
+### Installation des extensions dans _Visual Studio Code_
+* Redémarrer _Visual Studio Code_
+* Cloner votre repo
+* Accepter toutes les requêtes d'installation d'extensions de
+_Visual Studio Code_
 
 </details>
