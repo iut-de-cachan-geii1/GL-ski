@@ -1,6 +1,6 @@
 {
     "cmake.preferredGenerators": [
-        "MinGW Makefiles"
+        "Ninja"
     ],
     "cmake.configureOnOpen": false
 }

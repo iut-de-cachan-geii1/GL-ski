@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "MinGW",
+            "name": "(MinGW) Launch",
             "type": "cppdbg",
             "request": "launch",
             "program": "${command:cmake.launchTargetPath}",
@@ -18,7 +18,7 @@
             "miDebuggerPath": "gdb.exe",
             "setupCommands": [
                 {
-                    "description": "Activer l'impression en mode Pretty pour gdb",
+                    "description": "Enable pretty-printing for gdb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
