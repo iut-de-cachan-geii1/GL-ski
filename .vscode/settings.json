@@ -2,5 +2,10 @@
     "cmake.preferredGenerators": [
         "Ninja"
     ],
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cmake.configureEnvironment": {
+        "BOOST_ROOT": "C:/Boost"
+    },
+    "git.autofetch": true,
+    "C_Cpp.default.browse.databaseFilename": "${workspaceFolder}/.vscode/.BROWSE.VC.DB"
 }

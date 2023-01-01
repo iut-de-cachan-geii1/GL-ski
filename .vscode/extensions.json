@@ -4,6 +4,8 @@
         "ms-vscode.cpptools",
         "bierner.markdown-preview-github-styles",
         "twxs.cmake",
-        "ms-vscode.cmake-tools"
+        "ms-vscode.cmake-tools",
+        "vadimcn.vscode-lldb",
+        "ms-vsliveshare.vsliveshare"
     ]
 }

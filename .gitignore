@@ -1,36 +1,32 @@
-# Prerequisites
-*.d
+# Copyright (c) 2018 Antoine Tran Tan
+#
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore everything
+*
 
-# Precompiled Headers
-*.gch
-*.pch
+# Except certain file extensions
+!*.cpp
+!*.c
+!*.hpp
+!*.h
+!*.md
+!*.png
+!*.gif
+!*.jpg
+!CMakeLists.txt
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# ... and libraries
+!*.so
+!*.dylib
+!*.dll
+!*.lai
+!*.la
+!*.a
+!*.lib
 
-# Fortran module files
-*.mod
-*.smod
+# ...even if they are in subdirectories
+!*/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Build folder
+# ...but not in 'build' folder
 build
 blancServeur/tmp

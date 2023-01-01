@@ -19,7 +19,7 @@ repo.
 ### Comment cloner localement votre repo
 
 * Récupérér le lien de votre repo :
-    * Cliquer sur le bouton vert __Clone or download__ et copier l'URL
+    * Cliquer sur le bouton vert __Code__ et copier l'URL
 
 * Cloner avec __Visual Studio Code__ :
     * Ouvrir Visual Studio Code
