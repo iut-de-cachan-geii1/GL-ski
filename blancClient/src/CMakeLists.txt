@@ -2,8 +2,11 @@
 # The extensions are automatically found.
 
 file(GLOB_RECURSE sources
-    "*.c"
+    "*.cpp"
 )
 
+add_library(client STATIC libClient.c)
 add_executable(neige_exe ${sources})
-target_link_libraries(neige_exe ${SDL2_LIBRARIES})
+
+target_link_libraries(client ${SDL2_LIBRARIES})
+target_link_libraries(neige_exe client)

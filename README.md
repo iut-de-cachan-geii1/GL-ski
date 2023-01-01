@@ -12,7 +12,7 @@ Dépôt pour le projet Boule de Neige à l'IUT de Cachan
 * Avant de démarrer le projet, vous devez avoir un __clone local__ de votre
 repo.
 * Chaque fichier `.h` créé doit être placé dans le dossier `blancClient/include`.
-* Chaque fichier `.c` créé doit être placé dans le dossier `blancClient/src`.
+* Chaque fichier `.cpp` créé doit être placé dans le dossier `blancClient/src`.
 
 ## Par où commencer
 
