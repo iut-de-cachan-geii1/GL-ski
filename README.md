@@ -23,7 +23,7 @@ repo.
 
 * Cloner avec __Visual Studio Code__ :
     * Ouvrir Visual Studio Code
-    * Appuyer sur `F1`, ensuite taper `clone`, choisissez `Git: Clone`
+    * Appuyer sur `F1`, ensuite taper `clone`, choisissez `Git: Clone (Recursive)`
     * Coller l'URL dans le champ demandé
     * Sauvegarder quelque part (à l'IUT, ce sera dans votre dossier qui est
     dans `C:\Travail`)

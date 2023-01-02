@@ -5,7 +5,7 @@
 #ifndef _LIBCLIENT_H
 #define _LIBCLIENT_H
 
-#include <SDL2/SDL_net.h>
+#include <SDL_net.h>
 
 #define SERVEUR_ERREUR_ID -1
 #define SERVEUR_INTROUVABLE 0
