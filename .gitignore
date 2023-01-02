@@ -15,7 +15,6 @@
 !*.jpg
 !CMakeLists.txt
 !.gitmodules
-!SDL2
 
 # ... and libraries
 !*.so
