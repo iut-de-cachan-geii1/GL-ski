@@ -14,6 +14,7 @@
 !*.gif
 !*.jpg
 !CMakeLists.txt
+!.gitmodules
 
 # ... and libraries
 !*.so

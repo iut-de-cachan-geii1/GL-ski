@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <SDL2/SDL_net.h>
+#include <SDL_net.h>
 #include "libClient.h"
 
 #define CLIENT_DECONNECTE -1
